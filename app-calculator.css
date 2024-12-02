@@ -45,3 +45,13 @@ body {
 .clear-button {
   font-size: 17px;
 }
+
+.clear-button {
+  font-size: 17px;
+  display: flex; /* Habilita o Flexbox */
+  justify-content: center; /* Centraliza horizontalmente o texto */
+  align-items: center; /* Centraliza verticalmente o texto */
+  height: 60px; /* Garante a altura do botão */
+  width: 60px; /* Garante a largura do botão */
+  text-align: center; /* Centraliza o texto como fallback */
+}
