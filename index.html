@@ -7,7 +7,9 @@
   <title>Calculator</title>
 
 </head>
-  <body>
+
+<body>
+  <div class="calculator-container">
     <p class="js-display-calculation calculation"></p>
     <p>
       <button class="calculator-button gray-button" onclick="calculateTotal('1')">1</button>
@@ -17,9 +19,9 @@
     </p>
 
     <p>
-      <button class="calculator-button gray-button"onclick="calculateTotal('4')">4</button>
-      <button class="calculator-button gray-button"onclick="calculateTotal('5')">5</button>
-      <button class="calculator-button gray-button"onclick="calculateTotal('6')">6</button>
+      <button class="calculator-button gray-button" onclick="calculateTotal('4')">4</button>
+      <button class="calculator-button gray-button" onclick="calculateTotal('5')">5</button>
+      <button class="calculator-button gray-button" onclick="calculateTotal('6')">6</button>
       <button class="calculator-button orange-button" onclick="calculateTotal(' - ')">-</button>
     </p>
 
@@ -33,14 +35,12 @@
     <p>
       <button class="calculator-button gray-button" onclick="calculateTotal('0')">0</button>
       <button class="calculator-button gray-button" onclick="calculateTotal(' . ')">.</button>
-
       <button class="calculator-button gray-button" onclick="
         calculation = eval(calculation);
         console.log(calculation);
         displayCalculation();
         saveCalculation();
       ">=</button>
-
       <button class="calculator-button orange-button" onclick="calculateTotal(' / ')">/</button>
     </p>
 
@@ -51,8 +51,8 @@
       removeCalculation();
       saveCalculation();
       " >Clear</button>
+  </div>
+  <script src="app-calculator.js"> </script>
+</body>
 
-    <script src="app-calculator.js"> </script>
-
-  </body>
 </html>
