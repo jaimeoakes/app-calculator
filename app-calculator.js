@@ -23,5 +23,5 @@ function removeCalculation(){
 
 function displayCalculation(){
   const displayElement = document.querySelector('.js-display-calculation');
-  displayElement.innerHTML = calculation;
+  displayElement.innerHTML = calculation || '0';
 }

@@ -8,6 +8,12 @@ body {
   margin: 0; /* Remove margens padrão */
 }
 
+.calculator-container {
+  background-color:  rgb(0, 0, 0); /* Cor de fundo da calculadora */
+  padding: 20px; /* Espaço interno */
+  border-radius: 10px; /* Arredonda os cantos */
+  box-shadow: 0 0 10px 10px rgba(123, 116, 116, 0.1); /* Cria a borda transparente */
+}
 
 .calculation {
   color: white;
